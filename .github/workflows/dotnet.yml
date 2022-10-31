@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: lmiguelmarsan/hello-world-action@v1
+      uses: lmiguelmarsan/hello-world-docker-action@v1
       with:
         who-to-greet: 'lmiguelmarsan'
     - name: Get the output time
